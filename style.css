@@ -1,0 +1,241 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(9,15,31);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: rgb(6,10,21);
+    color: white;
+}
+nav .left{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;   
+}
+.left .icon i{
+    padding: 35px;
+}
+.left ul li a{
+    margin-top: 30px;
+    margin-inline: 10px;
+    font-size: 20px;  
+}
+.left img{
+    margin-top: -9px;
+    font-size: 20px;
+}
+.left ul{
+    padding: 10px;
+    margin: 22px;
+    list-style: none;
+}
+.right{
+    display: flex;
+}
+.right input{
+    border: none;
+    outline: none;
+    color: white;
+    height: 30px;
+    border-bottom: 1px solid white;
+    background-color: rgb(6,10,21);
+    margin-top: 15px;
+    font-size: 16px;
+}
+.right button{
+    width: 90px;
+    height: 28px;
+    background-color: rgb(27,79,252);
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    margin: 22px;
+}
+.right h3{
+    margin: 25px;
+}
+h1{
+    color: white;
+    padding-left: 10px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    border: 2px solid white;
+    width: 90%;
+    height: 400px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 55px;
+    margin-top: 33px; 
+}
+.text .txt{
+    color: white;
+    font-size: 33px;
+    margin-top: 66px;
+}
+.text .txt button{
+    width: 170px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    border: 2px solid rgb(22,91,252);
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.text img{
+    width: 64%;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.latest{
+    display: flex;
+}
+.latest img{
+    margin: 0.5vh;
+    cursor: pointer;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    padding-left: 7px;
+}
+.movies{
+    display: flex;
+}
+.movies img{
+    margin: 0.5vh;
+    border-radius: 5px;
+    padding-left: 7px;
+}
+.comedy{
+    display: flex;
+}
+.comedy img{
+    margin: 0.5vh;
+    border-radius: 5px;
+    padding-left: 7px;
+}
+.Kids{
+    display: flex;
+}
+.Kids img{
+    margin: 0.5vh;
+    border-radius: 5px;
+    padding-left: 7px;
+}
+.shows{
+    display: flex;
+}
+.shows img{
+    margin: 0.5vh;
+    border-radius: 5px;
+    padding-left: 7px;
+}
+.sports{
+    display: flex;
+}
+.sports img{
+    margin: 0.5vh;
+    border-radius: 5px;
+    padding-left: 7px;
+}
+.run{
+    display: flex;
+}
+.run img{
+    margin: 0.5vh;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+.tamil{
+    display: flex;
+}
+.tamil img{
+    margin: 0.5vh;
+    border-radius: 5px;
+    padding-left: 7px;
+    height: 150px;
+}
+.english{
+    display: flex;
+}
+.english img{
+    margin: 5px;
+    border-radius: 5px;
+    height: 150px;  
+    padding-left: 7px;
+}
+.hindi{
+    display: flex;
+}
+.hindi img{
+    margin: 5px;
+    border-radius: 5px;
+    height: 150px;
+    padding: 7px;
+}
+.story{ 
+    display: flex;
+}
+.story  img{
+    margin: 5px;
+    border-radius: 5px;
+    height: 150px;
+    padding: 7px;
+    
+}
+@media screen(max-width: 320){
+    nav{
+        display: flex;
+    }
+    .left .icon i{
+        padding: 20px;
+    }
+    .left ul li a{
+        margin-top: 20px;
+        margin-inline: 5px;
+        font-size: 10px;
+    }
+    .left img{
+        margin-top: -7px;
+        font-size: 10px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
