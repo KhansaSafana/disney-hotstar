@@ -192,29 +192,13 @@ h1{
     padding: 7px;
     
 }
-@media screen(max-width: 320){
-    nav{
-        display: flex;
-    }
-    .left .icon i{
-        padding: 20px;
-    }
-    .left ul li a{
-        margin-top: 20px;
-        margin-inline: 5px;
-        font-size: 10px;
-    }
-    .left img{
-        margin-top: -7px;
-        font-size: 10px;
-    }
 
 
 
 
 
 
-}
+
 
 
 
