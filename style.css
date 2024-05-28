@@ -19,15 +19,15 @@ nav .left{
 }
 .left .icon i{
     padding: 35px;
+    font-size: 16px;
 }
 .left ul li a{
-    margin-top: 30px;
+    margin-top: 22px;
     margin-inline: 10px;
-    font-size: 20px;  
+    font-size: 18px;
 }
 .left img{
-    margin-top: -9px;
-    font-size: 20px;
+    margin-top: -9px;   
 }
 .left ul{
     padding: 10px;
@@ -42,10 +42,14 @@ nav .left{
     outline: none;
     color: white;
     height: 30px;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
     background-color: rgb(6,10,21);
     margin-top: 15px;
     font-size: 16px;
+}
+.right i{
+    margin-left: -24px;
+    margin-top: 20px;
 }
 .right button{
     width: 90px;
@@ -59,12 +63,9 @@ nav .left{
 .right h3{
     margin: 25px;
 }
-h1{
-    color: white;
-    padding-left: 10px;
-}
 .text{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     justify-content: space-around;
     border: 2px solid white;
@@ -73,7 +74,6 @@ h1{
     border-radius: 5px;
     color: white;
     margin-left: 55px;
-    margin-top: 33px; 
 }
 .text .txt{
     color: white;
@@ -89,6 +89,7 @@ h1{
     border: 2px solid rgb(22,91,252);
     margin-top: 20px;
     border-radius: 5px;
+    margin-top: 33px;
 }
 .text img{
     width: 64%;
@@ -96,102 +97,352 @@ h1{
     border-radius: 5px;
     margin-top: 50px;
 }
+h1{
+    color: white;
+    font-size: 22px;
+    margin-left: 33px;
+    margin-top: 22px;   
+}
 .latest{
-    display: flex;
+   width: 100%;
+   height: auto;
+  /* add flexbox style*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
 }
 .latest img{
-    margin: 0.5vh;
+    margin: 20px;
     cursor: pointer;
-    max-width: 100%;
-    height: auto;
+    width: 20%;                                                                                                                                                                                             
+    height: 300px;
     border-radius: 5px;
-    padding-left: 7px;
+   
 }
 .movies{
-    display: flex;
-}
+    width: 100%;
+    height: auto;
+   /* add flexbox style*/
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+    flex-flow: wrap;
+ }
 .movies img{
-    margin: 0.5vh;
+    margin: 20px;
+    width: 20%;
+    height: 300px;
     border-radius: 5px;
-    padding-left: 7px;
+  
 }
 .comedy{
-    display: flex;
+    width: 100%;
+    height: auto;
+   /* add flexbox style*/
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-flow: wrap;
 }
 .comedy img{
-    margin: 0.5vh;
+    margin: 20px;
+    width: 20%;
+    height: 300px;
     border-radius: 5px;
-    padding-left: 7px;
+  
 }
 .Kids{
-    display: flex;
+    width: 100%;
+    height: auto;
+   /* add flexbox style*/
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-flow: wrap;
 }
 .Kids img{
-    margin: 0.5vh;
+    margin: 20px;
+    width: 20%;
+    height: 300px;
     border-radius: 5px;
-    padding-left: 7px;
+  
 }
 .shows{
-    display: flex;
+    width: 100%;
+    height: auto;
+   /* add flexbox style*/
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+  flex-flow: wrap;
 }
 .shows img{
-    margin: 0.5vh;
+    margin: 20px;
+    width: 20%;
+    height: 300px;
     border-radius: 5px;
-    padding-left: 7px;
+   
 }
 .sports{
-    display: flex;
+    width: 100%;
+    height: auto;
+   /* add flexbox style*/
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+  flex-flow: wrap;
 }
 .sports img{
-    margin: 0.5vh;
+    margin: 20px;
+    width: 20%;
+    height: 300px;
     border-radius: 5px;
-    padding-left: 7px;
+
 }
 .run{
-    display: flex;
+    width: 100%;
+    height: auto;
+   /* add flexbox style*/
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+  flex-flow: wrap;
 }
 .run img{
-    margin: 0.5vh;
-    padding-left: 15px;
+    margin: 20px;
+    width: 20%;
+    height: 300px;
     border-radius: 5px;
 }
 .tamil{
-    display: flex;
-}
+    width: 100%;
+    height: auto;
+   /* add flexbox style*/
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+  flex-flow: wrap;
+} 
 .tamil img{
-    margin: 0.5vh;
+    margin: 20px;
+    width: 20%;
     border-radius: 5px;
-    padding-left: 7px;
-    height: 150px;
+    height: 300px;
 }
 .english{
-    display: flex;
+    width: 100%;
+    height: auto;
+   /* add flexbox style*/
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-flow: wrap;
 }
 .english img{
-    margin: 5px;
+    margin: 20px;
+    width: 20%;
     border-radius: 5px;
-    height: 150px;  
-    padding-left: 7px;
+    height: 300px; 
+   
 }
 .hindi{
-    display: flex;
+    width: 100%;
+    height: auto;
+   /* add flexbox style*/
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+  flex-flow: wrap;
 }
 .hindi img{
-    margin: 5px;
+    margin: 20px;
     border-radius: 5px;
-    height: 150px;
-    padding: 7px;
+    height: 300px;
+    width: 20%;
 }
 .story{ 
-    display: flex;
+    width: 100%;
+    height: auto;
+   /* add flexbox style*/
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-flow: wrap;
 }
-.story  img{
-    margin: 5px;
+.story img{
+    margin: 20px;
     border-radius: 5px;
-    height: 150px;
-    padding: 7px;
+    height: 300px;
+    width: 20%;
     
 }
+ @media screen and (max-width: 1200px){
+    nav{
+        flex-direction: row;
+    }
+    .left img{
+        display: none;
+    }
+    .text img{
+        width: 50%;
+    }
+    .latest img{
+        width: 40%;
+    }
+    .movies img{
+        width: 40%
+    }
+    .comedy img{
+        width: 40%;
+    }
+    .kids img{
+        width: 40%;
+    }
+    .shows img{
+        width: 40%;
+    }
+    .sports img{
+        width: 40%;
+    }
+    .run img{
+        width: 40%;
+    }
+    .tamil img{
+        width: 40%;
+    }
+    .english img{
+        width: 40%;
+    }
+    .hindi img{
+        width: 40%;
+    }
+    .story img{
+        width: 40%;
+    }
+    }
+ @media screen and (max-width: 600px){
+    nav{
+        display: none;
+    }
+    .text{
+        flex-direction: column;
+        border: none;
+    }
+    .text .txt{
+        font-size: 35px;
+        padding-right: 20px;
+    }
+    .text .txt button{
+        font-size: 25px;
+        height: 35px;
+        width: 55%;
+    }
+    .text img{
+        width: 75%;
+        height: 85px;
+        padding-right: 55px;
+    }
+    .latest img{
+        width: 100%;
+    }
+    .movies img{
+        width: 100%;
+    }
+    .comedy img{
+        width: 100%;
+    }
+    .kids img{
+        width: 100%;
+    }
+    .shows img{
+        width: 100%;
+    }
+    .sports img{
+        width: 100%;
+    }
+    .run img{
+        width: 100%;
+    }
+    .tamil img{
+        width: 100%;
+    }
+    .english img{
+        width: 100%;
+    }
+    .hindi{
+        width: 100%;
+    }
+    .story{
+        width: 100%;
+    } 
+}
+
+
+
+
+
+
+    
+      
+
+
+
+     
+
+        
+       
+       
+           
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+            
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+    
+     
+ 
+      
+  
+    
+   
+    
+  
+
 
 
 
