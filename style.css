@@ -6,69 +6,57 @@ body{
     background-color: rgb(9,15,31);
 }
 nav{
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    background-color: rgb(6,10,21);
+    height: 80px;
+    width: 100%;
+}
+ .logo{
     color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 55px;
+    font-weight: bold;
 }
-nav .left{
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;   
+nav ul{
+    float: right;
+    margin-right: 20px;
 }
-.left .icon i{
-    padding: 35px;
-    font-size: 16px;
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
 }
-.left ul li a{
-    margin-top: 22px;
-    margin-inline: 10px;
-    font-size: 18px;
-}
-.left img{
-    margin-top: -9px;   
-}
-.left ul{
-    padding: 10px;
-    margin: 22px;
-    list-style: none;
-}
-.right{
-    display: flex;
-}
-.right input{
-    border: none;
-    outline: none;
-    color: white;
-    height: 30px;
-    border-bottom: 2px solid white;
-    background-color: rgb(6,10,21);
-    margin-top: 15px;
-    font-size: 16px;
-}
-.right i{
-    margin-left: -24px;
-    margin-top: 20px;
-}
-.right button{
-    width: 90px;
-    height: 28px;
-    background-color: rgb(27,79,252);
+nav ul li a{
     color: white;
     font-size: 17px;
-    border-radius: 5px;
-    margin: 22px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+    border-radius: 3px;
 }
-.right h3{
-    margin: 25px;
+a .active, a:hover{
+    background: #1b9bff;
+    transition: .5s;   
 }
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
 .text{
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-content: space-around;
     border: 2px solid white;
+    align-items: center;
+    box-sizing: border-box;
     width: 90%;
     height: 400px;
     border-radius: 5px;
@@ -79,6 +67,8 @@ nav .left{
     color: white;
     font-size: 33px;
     margin-top: 66px;
+    text-align: justify;
+    box-sizing: border-box;
 }
 .text .txt button{
     width: 170px;
@@ -89,13 +79,15 @@ nav .left{
     border: 2px solid rgb(22,91,252);
     margin-top: 20px;
     border-radius: 5px;
-    margin-top: 33px;
+    margin: 33px;
 }
 .text img{
     width: 64%;
     height: 300px;
     border-radius: 5px;
     margin-top: 50px;
+    text-align: center;
+    padding: 0;
 }
 h1{
     color: white;
@@ -113,12 +105,11 @@ h1{
   flex-flow: wrap;
 }
 .latest img{
-    margin: 20px;
+    margin: 10px;
     cursor: pointer;
     width: 20%;                                                                                                                                                                                             
     height: 300px;
-    border-radius: 5px;
-   
+    border-radius: 5px;  
 }
 .movies{
     width: 100%;
@@ -130,7 +121,7 @@ h1{
     flex-flow: wrap;
  }
 .movies img{
-    margin: 20px;
+    margin: 10px;
     width: 20%;
     height: 300px;
     border-radius: 5px;
@@ -146,27 +137,10 @@ h1{
    flex-flow: wrap;
 }
 .comedy img{
-    margin: 20px;
+    margin: 10px;
     width: 20%;
     height: 300px;
     border-radius: 5px;
-  
-}
-.Kids{
-    width: 100%;
-    height: auto;
-   /* add flexbox style*/
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   flex-flow: wrap;
-}
-.Kids img{
-    margin: 20px;
-    width: 20%;
-    height: 300px;
-    border-radius: 5px;
-  
 }
 .shows{
     width: 100%;
@@ -178,11 +152,10 @@ h1{
   flex-flow: wrap;
 }
 .shows img{
-    margin: 20px;
+    margin: 10px;
     width: 20%;
     height: 300px;
-    border-radius: 5px;
-   
+    border-radius: 5px;  
 }
 .sports{
     width: 100%;
@@ -194,7 +167,7 @@ h1{
   flex-flow: wrap;
 }
 .sports img{
-    margin: 20px;
+    margin: 10px;
     width: 20%;
     height: 300px;
     border-radius: 5px;
@@ -210,7 +183,7 @@ h1{
   flex-flow: wrap;
 }
 .run img{
-    margin: 20px;
+    margin: 10px;
     width: 20%;
     height: 300px;
     border-radius: 5px;
@@ -225,7 +198,7 @@ h1{
   flex-flow: wrap;
 } 
 .tamil img{
-    margin: 20px;
+    margin: 10px;
     width: 20%;
     border-radius: 5px;
     height: 300px;
@@ -240,7 +213,7 @@ h1{
    flex-flow: wrap;
 }
 .english img{
-    margin: 20px;
+    margin: 10px;
     width: 20%;
     border-radius: 5px;
     height: 300px; 
@@ -256,7 +229,7 @@ h1{
   flex-flow: wrap;
 }
 .hindi img{
-    margin: 20px;
+    margin: 10px;
     border-radius: 5px;
     height: 300px;
     width: 20%;
@@ -271,11 +244,50 @@ h1{
    flex-flow: wrap;
 }
 .story img{
-    margin: 20px;
+    margin: 10px;
     border-radius: 5px;
     height: 300px;
     width: 20%;
     
+}
+@media (max-width: 952px){
+    label .logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul  li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a .active{
+        background: none;
+        color: #0082eb;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
 }
  @media screen and (max-width: 1200px){
     nav{
@@ -321,69 +333,41 @@ h1{
         width: 40%;
     }
     }
- @media screen and (max-width: 600px){
-    nav{
-        display: none;
-    }
+ @media screen and (max-width: 768px){
     .text{
-        flex-direction: column;
         border: none;
+        display: block;
+        height: 50vh;
     }
     .text .txt{
-        font-size: 35px;
-        padding-right: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    .text .txt button{
-        font-size: 25px;
-        height: 35px;
-        width: 55%;
+    /* .text .txt button{
+        width: 100%;
+    } */
+    .text img{
+        width: 100%;
+    }
+    .container{
+        margin-top: 90px;
+    }
+    .txt{
+        margin: 0;
     }
     .text img{
-        width: 75%;
-        height: 85px;
-        padding-right: 55px;
+        margin: 0;
     }
-    .latest img{
-        width: 100%;
-    }
-    .movies img{
-        width: 100%;
-    }
-    .comedy img{
-        width: 100%;
-    }
-    .kids img{
-        width: 100%;
-    }
-    .shows img{
-        width: 100%;
-    }
-    .sports img{
-        width: 100%;
-    }
-    .run img{
-        width: 100%;
-    }
-    .tamil img{
-        width: 100%;
-    }
-    .english img{
-        width: 100%;
-    }
-    .hindi{
-        width: 100%;
-    }
-    .story{
-        width: 100%;
-    } 
 }
 
-
-
-
-
-
-    
+ @media ( max-width:650px ){
+    .text{
+     margin: 20px;
+    }
+ }   
       
 
 
