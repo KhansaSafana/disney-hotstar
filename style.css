@@ -337,7 +337,7 @@ h1{
     .text{
         border: none;
         display: block;
-        height: 50vh;
+        height: max-content;
     }
     .text .txt{
         width: 100%;
@@ -348,7 +348,7 @@ h1{
     }
     /* .text .txt button{
         width: 100%;
-    } */
+     }  */
     .text img{
         width: 100%;
     }
@@ -367,7 +367,37 @@ h1{
     .text{
      margin: 20px;
     }
- }   
+ } 
+ @media (max-width:540px) {
+        .text img{
+
+        height: 235px;   
+    }
+ } 
+ /* @media (min-width:370px) {
+    .text img{
+        height: 213px;
+    }
+    .text  .txt button{
+        height: 10px;
+    } */
+
+ 
+ @media (max-width:434px)  {
+    .text img{
+        width: 100%;
+        height: 181px;
+    }
+    .container{
+        margin-top: 10px;
+       }
+ }
+ 
+ 
+ 
+
+ 
+
       
 
 
